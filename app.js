@@ -4,7 +4,7 @@ const numeroSecreto = Math.floor(Math.random() * 10) + 1;
 let intentos = 3;
 
 while (intentos > 0) {
-  let entrada = prompt("🔢 Ingresa un número del 1 al 10:");
+  let entrada = prompt(" Ingresa un número del 1 al 10:");
   
   // Validación
   if (entrada === null) {
